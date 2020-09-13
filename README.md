@@ -7,6 +7,11 @@ Thanks to the awesome original implementation using web-sockets  [TechTeamer/jan
 ___
 Quick and might be buggy implementation on using `mqtt` transport.
 #HowTos
+
+```
+import { JanusMQTT } from '@uwejan/janus-api-mqtt' // instead of Janus use JanusMQTT
+
+```
 ```
 const common = {
     janus: {
