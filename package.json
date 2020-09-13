@@ -1,0 +1,41 @@
+{
+  "name": "@uwejan/janus-api-mqtt",
+  "version": "1.0.0",
+  "description": "Janus WebRTC-Gateway API, using MQTT",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "engines": {
+    "node": ">=10.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uwejan/janus-api-mqtt.git"
+  },
+  "keywords": [
+    "janus",
+    "webrtc",
+    "mqtt"
+  ],
+  "author": "uwejan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uwejan/janus-api-mqtt/issues"
+  },
+  "homepage": "https://github.com/uwejan/janus-api-mqtt#readme",
+  "dependencies": {
+    "paho-mqtt": "^1.1.0",
+    "sdp": "^3.0.1",
+    "uuid": "^8.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "webrtc-adapter": "^7.5.0"
+  }
+}
